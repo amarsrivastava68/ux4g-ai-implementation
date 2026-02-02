@@ -1,4 +1,4 @@
-import GovernmentHeader from './components/GovernmentHeader';
+import GovernmentHeader from './components/GovernmentHeader/GovernmentHeader';
 
 function App() {
   return (
