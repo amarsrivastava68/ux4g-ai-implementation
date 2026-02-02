@@ -1,0 +1,43 @@
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark .header-top,
+body.dark .header-area {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark .navbar {
+  background-color: #2a2a2a;
+}
+
+body.dark .dropdown-menu {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+body.dark .dropdown-item {
+  color: #ffffff;
+}
+
+body.dark .dropdown-item:hover {
+  background-color: #555555;
+}
+
+body.dark .btn-outline-primary {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+body.dark .btn-outline-primary:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
