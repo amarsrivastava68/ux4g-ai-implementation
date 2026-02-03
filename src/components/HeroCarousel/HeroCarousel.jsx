@@ -12,7 +12,7 @@ function HeroCarousel() {
   ];
 
   return (
-    <div id="carouselExampleControlsNoTouching" className="carousel slide hero-carousel" data-bs-touch="false">
+    <div id="carouselExampleControlsNoTouching"  className="carousel slide hero-carousel" data-bs-touch="false">
       <div className="carousel-inner">
         {slides.map((slide, index) => (
           <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
