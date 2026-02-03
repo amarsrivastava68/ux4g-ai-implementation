@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import './HeroCarousel.css';
 
 function HeroCarousel() {
@@ -10,6 +11,8 @@ function HeroCarousel() {
     }
    
   ];
+
+  const navigate = useNavigate()
 
   return (
     <div id="carouselExampleControlsNoTouching"  className="carousel slide hero-carousel" data-bs-touch="false">
@@ -25,7 +28,10 @@ function HeroCarousel() {
                 <p>{slide.description}</p>
                 
                 <div className="carousel-buttons">
-                  <button className="btn btn-primary">New Registration - Manual Entry</button>
+                  <button
+                className="btn btn-primary"
+                onClick={() => navigate('/register')}
+              >New Registration - Manual Entry</button>
                   <button className="btn btn-light">Register via Entity Locker</button>
                 </div>
               </div>
